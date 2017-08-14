@@ -16,7 +16,7 @@ interface ScalableTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const BOOL = 'bool';
+    const T_BOOL = 'bool';
 
     /**
      * An integer.
@@ -25,7 +25,7 @@ interface ScalableTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const INT = 'int';
+    const T_INT = 'int';
 
     /**
      * A float.
@@ -34,7 +34,7 @@ interface ScalableTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const FLOAT = 'float';
+    const T_FLOAT = 'float';
 
     /**
      * A string.
@@ -43,5 +43,5 @@ interface ScalableTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const STRING = 'string';
+    const T_STRING = 'string';
 }

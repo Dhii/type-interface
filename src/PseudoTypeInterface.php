@@ -20,7 +20,7 @@ interface PseudoTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const SCAL = 'scalable';
+    const T_SCALABLE = 'scalable';
 
     /**
      * One of the iterable types.
@@ -29,7 +29,7 @@ interface PseudoTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const ITER = 'iterable';
+    const T_ITERABLE = 'iterable';
 
     /**
      * A number.
@@ -38,14 +38,14 @@ interface PseudoTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const NUM = 'number';
+    const T_NUMBER = 'number';
 
     /**
      * A number or a string representing a number. Includes `NUM`.
      *
      * @since [*next-version*]
      */
-    const NUMERIC = 'numeric';
+    const T_NUMERIC = 'numeric';
 
     /**
      * A callable.
@@ -54,7 +54,7 @@ interface PseudoTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const CALL = 'callable';
+    const T_CALLABLE = 'callable';
 
     /**
      * A null.
@@ -63,7 +63,7 @@ interface PseudoTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const NUL = 'null';
+    const T_NULL = 'null';
 
     /**
      * An empty value.
@@ -72,7 +72,7 @@ interface PseudoTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const EMP = 'empty';
+    const T_EMPTY = 'empty';
 
     /**
      * A resource.
@@ -81,5 +81,5 @@ interface PseudoTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const RES = 'resource';
+    const T_RESOURCE = 'resource';
 }

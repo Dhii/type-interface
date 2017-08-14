@@ -14,12 +14,12 @@ interface CompoundTypeInterface extends TypeInterface
      *
      * @since [*next-version*]
      */
-    const ARR = 'array';
+    const T_ARRAY = 'array';
 
     /**
      * An object.
      *
      * @since [*next-version*]
      */
-    const OBJ = 'object';
+    const T_OBJECT = 'object';
 }
