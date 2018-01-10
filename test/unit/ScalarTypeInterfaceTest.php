@@ -3,27 +3,28 @@
 namespace Dhii\Type\FuncTest;
 
 use Xpmock\TestCase;
+use Dhii\Type\ScalarTypeInterface as TestSubject;
 
 /**
- * Tests {@see \Dhii\Type\ScalableTypeInterface}.
+ * Tests {@see TestSubject}.
  *
  * @since [*next-version*]
  */
-class ScalableTypeInterfaceTest extends TestCase
+class ScalarTypeInterfaceTest extends TestCase
 {
     /**
      * The name of the test subject.
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Type\\ScalableTypeInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Type\ScalarTypeInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
      * @since [*next-version*]
      *
-     * @return \Dhii\Type\ScalableTypeInterface
+     * @return TestSubject
      */
     public function createInstance()
     {

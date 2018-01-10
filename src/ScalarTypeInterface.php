@@ -3,11 +3,11 @@
 namespace Dhii\Type;
 
 /**
- * Represents a scalable type.
+ * Represents a scalar type.
  *
  * @since [*next-version*]
  */
-interface ScalableTypeInterface extends TypeInterface
+interface ScalarTypeInterface extends TypeInterface
 {
     /**
      * A boolean.
