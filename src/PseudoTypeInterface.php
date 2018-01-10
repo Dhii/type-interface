@@ -13,14 +13,14 @@ namespace Dhii\Type;
 interface PseudoTypeInterface extends TypeInterface
 {
     /**
-     * One of the scalable types.
+     * One of the scalar types.
      *
-     * Typically, the below types are considered to be scalable:
+     * Typically, the below types are considered to be scalar:
      * `bool`, `int`, `string`, `float`.
      *
      * @since [*next-version*]
      */
-    const T_SCALABLE = 'scalable';
+    const T_SCALAR = 'scalar';
 
     /**
      * One of the iterable types.

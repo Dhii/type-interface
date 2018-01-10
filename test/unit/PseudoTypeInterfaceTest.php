@@ -16,7 +16,7 @@ class PseudoTypeInterfaceTest extends TestCase
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Type\\PseudoTypeInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Type\PseudoTypeInterface';
 
     /**
      * Creates a new instance of the test subject.
@@ -46,7 +46,7 @@ class PseudoTypeInterfaceTest extends TestCase
         $this->assertInstanceOf(
             static::TEST_SUBJECT_CLASSNAME, $subject, 'A valid instance of the test subject could not be created'
         );
-        $this->assertTrue(defined(sprintf('%1$s::%2$s', static::TEST_SUBJECT_CLASSNAME, 'T_SCALABLE')));
+        $this->assertTrue(defined(sprintf('%1$s::%2$s', static::TEST_SUBJECT_CLASSNAME, 'T_SCALAR')));
         $this->assertTrue(defined(sprintf('%1$s::%2$s', static::TEST_SUBJECT_CLASSNAME, 'T_ITERABLE')));
         $this->assertTrue(defined(sprintf('%1$s::%2$s', static::TEST_SUBJECT_CLASSNAME, 'T_NUMBER')));
         $this->assertTrue(defined(sprintf('%1$s::%2$s', static::TEST_SUBJECT_CLASSNAME, 'T_NUMERIC')));
